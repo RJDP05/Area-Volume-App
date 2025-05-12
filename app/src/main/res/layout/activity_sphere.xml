@@ -25,7 +25,7 @@
         android:id="@+id/sideLength"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="70dp"
         android:hint="Enter Length"
         android:inputType="numberDecimal"
         android:textColor="@color/white"
