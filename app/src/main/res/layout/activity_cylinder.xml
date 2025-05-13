@@ -13,36 +13,52 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
-        android:text="Enter The Side Length"
+        android:text="Enter The Radius and Height"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="28dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/sideLength"
+        android:id="@+id/radiusOfCylinder"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:hint="Enter Length"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Radius"
         android:inputType="numberDecimal"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Height"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radiusOfCylinder" />
+
     <TextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sideLength" />
+        app:layout_constraintTop_toBottomOf="@+id/height" />
 
     <Button
+        android:id="@+id/calculateCylinder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculate"

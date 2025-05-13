@@ -29,7 +29,7 @@ public class Cube extends AppCompatActivity {
         textView = findViewById(R.id.textView);
         editText = findViewById(R.id.sideLength);
         result = findViewById(R.id.result);
-        button = findViewById(R.id.calculate);
+        button = findViewById(R.id.calculateCube);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
